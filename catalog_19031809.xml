@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="catalog_19031809.css"?> 
+<!DOCTYPE MusicStore SYSTEM "catalog_19031809.dtd">  
+<MusicStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031809.xsd">
+	<StoreName>Treasure Music Store</StoreName>
+	<Address> 
+		<WebAddress>
+			https://treasuremusicstore.com/
+		</WebAddress>
+
+		<LocalAddress>
+			Shantinagar Kathmandu, Nepal
+		</LocalAddress>
+	 </Address>
+
+	<Number>
+		<TelePhone>
+			01-478735
+		</TelePhone>
+
+		<Mobile>9842522475</Mobile>
+	</Number>
+
+	<Logo></Logo>
+
+
+	<Songs>
+		<Song songId="S03" songDuration="3:58" genre="Pop" songStatus="Solo"> 
+			<SongName>Somebody's Me</SongName>
+			<Singers>
+				<Singer singerID="enrIg01" gender="Male">Enrique Iglesias</Singer>
+			</Singers>
+			<Album>Insomanic</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band></Band>
+			<Director>Anthony Mandler</Director>
+			<Producer>John Shanks</Producer>
+			<Writer>Enrique Iglesias</Writer>
+			<ReleaseYear>2007</ReleaseYear>
+			<Award></Award>
+		</Song>
+
+		<Song songId="bel012" songDuration="3:24" genre="Pop Rock" songStatus="Solo"> 
+			<SongName>Believer</SongName>
+			<Singers>
+				<Singer singerID="DCR01" gender="Male">Daniel Coulter Reynolds</Singer>
+			</Singers>
+			<Album>Evolve</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band>Imagine Dragons</Band>
+			<Director>Matt Eastin</Director>
+			<Producer>Mattman &amp; Robin</Producer>
+			<Writer>Imagine Dragons</Writer>
+			<ReleaseYear>2017</ReleaseYear>
+			<Award>Billboard Music Award for Top Rock Song</Award>
+		</Song>
+
+		<Song songId="Kmk09" songDuration="5:54" genre="Pop" songStatus="Duet"> 
+			<SongName>Kutu Ma Kutu</SongName>
+			<Singers>
+				<Singer singerID="RRS23" gender="Male"> Rajan Raj Shiwakoti</Singer>
+				<Singer singerID="MR03" gender="Female">Melina Rai</Singer>
+				<Singer singerID="Raj1" gender="Male">Rajan Ishan</Singer>
+			</Singers>
+			<Album></Album>
+			<PlaybackMovie>DUI RUPAIYAN</PlaybackMovie>
+			<Language>Nepali</Language>
+			<Band></Band>
+			<Director>Asim Shah</Director>
+			<Producer>Asif Shah</Producer>
+			<Writer>Rajan Raj Shiwakoti</Writer>
+			<ReleaseYear>2017</ReleaseYear>
+			<Award>Radio Kantipur Music Award for People's Choice Award</Award>
+		</Song>
+
+		<Song songId="Mhg09" songDuration="4:39" genre="Pop" songStatus="Solo"> 
+			<SongName>My Heart Will Go On</SongName>
+			<Singers>
+				<Singer singerID="CD57" gender="Female">Celine Dion</Singer>
+			</Singers>
+			<Album>Let's Talk About Love</Album>
+			<PlaybackMovie>Titanic</PlaybackMovie>
+			<Language>English</Language>
+			<Band></Band>
+			<Director>James Horner</Director>
+			<Producer>Simon Franglen</Producer>
+			<Writer>Will Jennings</Writer>
+			<ReleaseYear>1997 </ReleaseYear>
+			<Award>1998 Academy Award for Best Original Song</Award>
+		</Song>
+
+
+		<Song songId="Des056" songDuration="3:47" genre="Latin Pop" songStatus="Duet"> 
+			<SongName>Despacito</SongName>
+			<Singers>
+				<Singer singerID="Lf15" gender="Male">Luis Fonsi</Singer>
+				<Singer singerID="Dy67" gender="Male">Daddy Yankee</Singer>
+			</Singers>
+			<Album>Vida</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>Spanish &amp; English</Language>
+			<Band></Band>
+			<Director>Carlos Pérez</Director>
+			<Producer>Joanna Egozcue</Producer>
+			<Writer>Luis Fonsi</Writer>
+			<ReleaseYear>2017</ReleaseYear>
+			<Award>Latin Grammy Award For Record of the Year</Award>
+		</Song>
+
+
+		<Song songId="Sw03" songDuration="9:22" genre="Jazz" songStatus="Solo"> 
+			<SongName>So What</SongName>
+			<Singers>
+				<Singer singerID="Md76" gender="Male">Miles Davis</Singer>
+			</Singers>
+			<Album>Kind of Blue</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band></Band>
+			<Director>Miles Davis</Director>
+			<Producer>Teo Macero</Producer>
+			<Writer>Miles Davis</Writer>
+			<ReleaseYear>1959</ReleaseYear>
+			<Award>Grammy Award for Best Album Notes</Award>
+		</Song>
+
+		<Song songId="Dfabh31" songDuration="3:13" genre="Country Music" songStatus="Duet"> 
+			<SongName>Die From A Broken Heart</SongName>
+			<Singers>
+				<Singer singerID="Mdie89" gender="Male">Madie</Singer>
+				<Singer singerID="Tae34" gender="Male">Tae</Singer>
+			</Singers>
+			<Album>One Heart To Another</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band></Band>
+			<Director></Director>
+			<Producer>Jimmy Robbins</Producer>
+			<Writer>Taylor Dye</Writer>
+			<ReleaseYear>2019</ReleaseYear>
+			<Award>CMT Music Award for Duo Video of the Year</Award>
+		</Song>
+
+		<Song songId="Lights77" songDuration="4:02" genre="Pop" songStatus="Solo"> 
+			<SongName>Lights</SongName>
+			<Singers>
+				<Singer singerID="Eg04" gender="Female">Ellie Goulding</Singer>
+			</Singers>
+			<Album> Bright Lights</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band></Band>
+			<Director></Director>
+			<Producer>Ash Howes</Producer>
+			<Writer>Ellie Goulding</Writer>
+			<ReleaseYear>2010</ReleaseYear>
+			<Award></Award>
+		</Song>
+
+		<Song songId="Tmtc731" songDuration="4:02" genre="Indie Rock" songStatus="Solo"> 
+			<SongName>Take Me To Church</SongName>
+			<Singers>
+				<Singer singerID="Hoi10" gender="Male">Hozier</Singer>
+			</Singers>
+			<Album>Take Me To Church E.P.</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band></Band>
+			<Director></Director>
+			<Producer>Rob Kirwan</Producer>
+			<Writer>Andrew Hozier-Byrne</Writer>
+			<ReleaseYear>2013</ReleaseYear>
+			<Award>Teen Choice Award for Choice Rock Song</Award>
+		</Song>
+
+		<Song songId="Nem537" songDuration="6:28" genre="Metal" songStatus="Solo"> 
+			<SongName>Nothing Else Matters</SongName>
+			<Singers>
+				<Singer singerID="JH13" gender="Male">James Hetfield</Singer>
+			</Singers>
+			<Album>Metallica</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band>Metallica</Band>
+			<Director></Director>
+			<Producer>James Hetfield</Producer>
+			<Writer>James Hetfield</Writer>
+			<ReleaseYear>1992</ReleaseYear>
+			<Award></Award>
+		</Song>
+
+		<Song songId="Bobd503" songDuration="4:47" genre="Alternative rock" songStatus="Solo"> 
+			<SongName>Boulevard of Broken Dreams</SongName>
+			<Singers>
+				<Singer singerID="Bja571" gender="Male">Billie Joe Armstrong</Singer>
+			</Singers>
+			<Album>American Idiot</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band>Green Day</Band>
+			<Director></Director>
+			<Producer>Rob Cavallo</Producer>
+			<Writer>Billie Joe Armstrong</Writer>
+			<ReleaseYear>2004</ReleaseYear>
+			<Award> MTV Video Music Award for Best Rock Video</Award>
+		</Song>
+
+		<Song songId="Mir303" songDuration="8:20" genre="Pop" songStatus="Solo"> 
+			<SongName>Mirrors</SongName>
+			<Singers>
+				<Singer singerID="Jt51" gender="Male">Justin Timberlake</Singer>
+			</Singers>
+			<Album>The 20/20 Experience</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band></Band>
+			<Director></Director>
+			<Producer>Justin Timberlake</Producer>
+			<Writer>Justin Timberlake</Writer>
+			<ReleaseYear>2013</ReleaseYear>
+			<Award>BMI Pop Awards For Award Winning Songs</Award>
+		</Song>
+
+		<Song songId="Jbg156" songDuration="3:26" genre="Pop" songStatus="Duet"> 
+			<SongName>Jaan Ban Gaye</SongName>
+			<Singers>
+				<Singer singerID="Mit17" gender="Male">Mithoon</Singer>
+				<Singer singerID="Vm74" gender="Male">Vishal Mishra</Singer>
+				<Singer singerID="Ak57" gender="Female">Asees Kaur</Singer>
+			</Singers>
+			<Album></Album>
+			<PlaybackMovie>Khuda Haafiz</PlaybackMovie>
+			<Language>Hindi</Language>
+			<Band></Band>
+			<Director>Faruk Kabir </Director>
+			<Producer>Kumar Mangat Pathak</Producer>
+			<Writer>Faruk Kabir </Writer>
+			<ReleaseYear>2020</ReleaseYear>
+			<Award></Award>
+		</Song>
+
+		<Song songId="Sa10" songDuration="2:16" genre="Pop" songStatus="Duet"> 
+			<SongName>Saibo</SongName>
+			<Singers>
+				<Singer singerID="Sg05" gender="Female">Shreya Ghoshal</Singer>
+				<Singer singerID="Tr01" gender="Male">Tochi Raina</Singer>
+			</Singers>
+			<Album></Album>
+			<PlaybackMovie>Shor in the City</PlaybackMovie>
+			<Language>Hindi</Language>
+			<Band></Band>
+			<Director> Raj Nidimoru</Director>
+			<Producer>Ekta Kapoor</Producer>
+			<Writer>Priya Panchal</Writer>
+			<ReleaseYear>2011</ReleaseYear>
+			<Award>Zee Cine Awards</Award>
+		</Song>
+
+		<Song songId="Pg07" songDuration="3:38" genre="Pop" songStatus="Solo"> 
+			<SongName>Pretty Girl</SongName>
+			<Singers>
+				<Singer singerID="Magi01" gender="Female">Maggie Lindemann</Singer>
+			</Singers>
+			<Album>Pretty Girl</Album>
+			<PlaybackMovie></PlaybackMovie>
+			<Language>English</Language>
+			<Band></Band>
+			<Director> Roman White</Director>
+			<Producer>Carlos Lugo</Producer>
+			<Writer>Maggie Lindemann</Writer>
+			<ReleaseYear>2016</ReleaseYear>
+			<Award></Award>
+		</Song>
+
+	</Songs>
+</MusicStore>

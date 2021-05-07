@@ -1,0 +1,29 @@
+<!ELEMENT MusicStore (StoreName, Address, Number, Logo, Songs)>
+<!ELEMENT StoreName (#PCDATA)>
+<!ELEMENT Address (WebAddress, LocalAddress)>
+<!ELEMENT WebAddress (#PCDATA)>
+<!ELEMENT LocalAddress (#PCDATA)>
+<!ELEMENT Number (TelePhone, Mobile)>
+<!ELEMENT TelePhone (#PCDATA)>
+<!ELEMENT Mobile (#PCDATA)>
+<!ELEMENT Logo (#PCDATA)>
+<!ELEMENT Songs (Song+)>
+<!ELEMENT Song (SongName, Singers, Album?, PlaybackMovie?, Language, Band?, Director?, Producer, Writer, ReleaseYear, Award?)>
+<!ATTLIST Song songId ID #REQUIRED>
+<!ATTLIST Song songDuration CDATA #REQUIRED>
+<!ATTLIST Song genre CDATA #REQUIRED>
+<!ATTLIST Song songStatus CDATA #REQUIRED>
+<!ELEMENT SongName (#PCDATA)>
+<!ELEMENT Singers (Singer+)>
+<!ELEMENT Singer (#PCDATA)>
+<!ATTLIST Singer singerID ID #REQUIRED>
+<!ATTLIST Singer gender CDATA #REQUIRED>
+<!ELEMENT Album (#PCDATA)>
+<!ELEMENT PlaybackMovie (#PCDATA)>
+<!ELEMENT Language (#PCDATA)>
+<!ELEMENT Band (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT Writer (#PCDATA)>
+<!ELEMENT ReleaseYear (#PCDATA)>
+<!ELEMENT Award (#PCDATA)>

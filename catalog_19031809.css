@@ -1,0 +1,101 @@
+MusicStore {
+    margin: auto;
+    font-family: Times New Roman;
+    display: table;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    text-align: center;
+    height: 100%;
+    width: 55%;
+    font-size: 30px;
+    font-weight: bold;
+    -moz-box-shadow: inset 11px 9px 19px #000000;
+    -webkit-box-shadow: inset 11px 9px 19px #000000;
+    box-shadow: inset 11px 9px 19px #000000;
+    border-radius: 20px;
+}
+
+StoreName {
+    font-size: 55px;
+    margin-left: 290px;
+    background-color: orangered;
+    border-radius: 20px;
+}
+
+WebAddress,
+LocalAddress,
+TelePhone,
+Mobile,
+Website,
+E-mail {
+    margin-left: 500px;
+    font-family: Verdana;
+    display: grid;
+    background-color: #00051eb0;
+    text-align: center;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+Logo {
+    background-image: url('treas.jpg');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 230px;
+    background-size: contain;
+    position: absolute;
+    top: 5px;
+    margin: -270px;
+    margin-top: 0px;
+    border-radius: 50%;
+}
+
+Songs {
+    padding: 20px;
+    display: block;
+    border: groove 5px #000000;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 20px;
+    margin-top: 30px;
+    -moz-box-shadow: inset 11px 9px 19px #000000;
+    -webkit-box-shadow: inset 11px 9px 19px #000000;
+    box-shadow: inset 11px 9px 19px #000000;
+}
+
+SongName {
+    background-color: rgb(204 94 28);
+    font-size: 100%;
+    margin: 3px;
+    size: 13px;
+    font-family: Verdana;
+    display: list-item;
+    text-align: center;
+    border-radius: 10px;
+}
+
+Singers,
+Album,
+Director,
+Producer,
+Language,
+Writer,
+Band,
+ReleaseYear,
+PlaybackMovie,
+Award {
+    display: flex;
+    font-size: 20px;
+    margin: 3px;
+    size: 13px;
+    font-family: Verdana;
+    display: list-item;
+    background-color: #00051eb0;
+    background-position: absolute;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}

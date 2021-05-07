@@ -1,0 +1,88 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MusicStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="StoreName"/>
+        <xs:element name="Address">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="WebAddress"/>
+              <xs:element type="xs:string" name="LocalAddress"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Number">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="TelePhone"/>
+              <xs:element name="Mobile">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="98[0-9]{8}"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="Logo"/>
+        <xs:element name="Songs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Song" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="SongName"/>
+                    <xs:element name="Singers">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Singer" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="singerID" use="required"/>
+                                  <xs:attribute name="gender" use="required">
+                                    <xs:simpleType>
+                                      <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Male"/>
+                                        <xs:enumeration value="Female"/>
+                                      </xs:restriction>
+                                    </xs:simpleType>
+                                  </xs:attribute>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="Album"/>
+                    <xs:element type="xs:string" name="PlaybackMovie"/>
+                    <xs:element type="xs:string" name="Language"/>
+                    <xs:element type="xs:string" name="Band"/>
+                    <xs:element type="xs:string" name="Director"/>
+                    <xs:element type="xs:string" name="Producer"/>
+                    <xs:element type="xs:string" name="Writer"/>
+                    <xs:element type="xs:float" name="ReleaseYear"/>
+                    <xs:element type="xs:string" name="Award"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="songId" use="required"/>
+                  <xs:attribute type="xs:string" name="songDuration" use="required"/>
+                  <xs:attribute type="xs:string" name="genre" use="required"/>
+                  <xs:attribute name="songStatus" use="required">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value="Solo"/>
+                        <xs:enumeration value="Duet"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
